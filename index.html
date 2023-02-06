@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            padding:0;
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+    
+    <center>
+    <div id="tekstDiv">Start tekst</div><br>
+    <li><button onclick ="oppdaterTekst()">Endre Tekst</button></li>
+
+    <div id="output"></div>
+    <li><button onclick="setNum(1)">Set Number 1</button></li>
+    <li><button onclick="setNum(100)">Set number 100</button></li>
+    <li><button onclick="increaseNum()">One up</button></li>
+    <li><button onclick="decreaseNum()">Decrease</button></li>
+
+    <div id="mainDiv"></div>
+    <li><button onclick="farge('blue',50,100)">Blå</button>
+    <button onclick="farge('purple',50,100)">Lilla</button></li>
+
+    <img onclick="randomImage(this)"class="bilde">
+
+    </div>
+
+    </center>
+
+    <script src=index.js></script>
+
+</body>
+</html>
