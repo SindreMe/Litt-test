@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
     <style>
         body {
             padding:0;
@@ -29,6 +30,7 @@
             <button onclick="color('blue',50,100)">Blue</button>
             <button onclick="color('purple',50,100)">Purple</button>
 
+
         <img onclick="randomImage(this)"class="bilde">
 
         </div>
@@ -48,10 +50,16 @@
 
         <div id="game2"></div>
 
+        <div>
+        <audio id="myAudio" src="music/This is War - Meteor Remix.mp3"></audio>
+            <button onclick="playAudio()">Play music</button>
+            <button onclick="pauseAudio()">Pause music</button>
+        </div>
 
     </center>
 
     <script src=index.js></script>
+    
 
 </body>
 </html>

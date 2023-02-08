@@ -4,3 +4,35 @@
     cursor: pointer;
 }
 
+.hero {
+    width: 100%;
+    background: #a9a9a9;
+    align-items: center;
+    justify-content: center;
+}
+
+.music {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0px;
+    box-shadow: 0 0 20px rgba(red, 0, 0 ,0.4);
+    background: red;
+    color: black;
+    border-radius: 0px;
+}
+
+.track {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.track img {
+    width: 70px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+
+.track div {
+    flex: 1;
+}

@@ -9,6 +9,8 @@ function changeText() {
 //var enkeltTegn = 'a';
 //var booleans = false;
 
+//----------------------------------------------------------------------------
+
 var outputDiv = document.getElementById('output');
 var numToShow = 0;
 
@@ -34,6 +36,8 @@ function color(color,width,height) {
     `;
 }
 
+//----------------------------------------------------------------------------
+
 function randomImage(element) {
 
         let bil = Math.floor(Math.random() *3) +1;
@@ -49,6 +53,8 @@ function randomImage(element) {
 
 }
 
+//----------------------------------------------------------------------------
+
 function show() {
     var valueTxt = document.getElementById('number').value;
     var value = parseInt(valueTxt);
@@ -60,7 +66,9 @@ function show() {
     document.getElementById('info').innerHTML = html;
 }
 
-    goToA();
+//----------------------------------------------------------------------------
+    
+goToA();
 
     function goToA() {
         document.getElementById('game').innerHTML = /*html*/`
@@ -175,6 +183,18 @@ function goToC1() {
     </ul>
     `;
 }
+
+//----------------------------------------------------------------------------
+
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+  x.play();
+}
+
+function pauseAudio() {
+  x.pause();
+} 
 
 
 
