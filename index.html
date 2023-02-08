@@ -13,25 +13,41 @@
         }
     </style>
 </head>
-<body>
+<body style="background-color:grey;">
     
     <center>
-    <div id="tekstDiv">Start tekst</div><br>
-    <li><button onclick ="oppdaterTekst()">Endre Tekst</button></li>
+        <div id="textDiv">Start text</div>
+            <button onclick ="changeText()">Change Text</button>
 
-    <div id="output"></div>
-    <li><button onclick="setNum(1)">Set Number 1</button></li>
-    <li><button onclick="setNum(100)">Set number 100</button></li>
-    <li><button onclick="increaseNum()">One up</button></li>
-    <li><button onclick="decreaseNum()">Decrease</button></li>
+        <div id="output"></div><br>
+            <button onclick="setNum(1)">Set Number 1</button>
+            <button onclick="increaseNum()">Increase</button>
+            <button onclick="decreaseNum()">Decrease</button>
+            <button onclick="setNum(100)">Set number 100</button>
 
-    <div id="mainDiv"></div>
-    <li><button onclick="farge('blue',50,100)">Blå</button>
-    <button onclick="farge('purple',50,100)">Lilla</button></li>
+        <div id="mainDiv"></div><br>
+            <button onclick="color('blue',50,100)">Blue</button>
+            <button onclick="color('purple',50,100)">Purple</button>
 
-    <img onclick="randomImage(this)"class="bilde">
+        <img onclick="randomImage(this)"class="bilde">
 
-    </div>
+        </div>
+
+            <input
+            id="number"
+            type="range"
+            min="1"
+            max="100"
+            step="1"
+            oninput="show()"
+            />
+        <div id="info"></div>
+
+
+        <div id="game"></div>
+
+        <div id="game2"></div>
+
 
     </center>
 
