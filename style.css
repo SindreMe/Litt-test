@@ -1,7 +1,15 @@
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(175,98,31,1) 5%, rgba(204,32,195,1) 54%, rgba(8,0,255,0.7567226719789478) 100%);
+}
+
+
+
 .bilde {
     width:650px;
     height:450px;
     cursor: pointer;
+    margin: 10px;
 }
 
 .hero {
@@ -36,3 +44,33 @@
 .track div {
     flex: 1;
 }
+
+#playBtn {
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+#pauseBtn {
+    font-size: 30px;
+    color: red;
+    cursor: pointer;
+}
+
+#myRange {
+    background-color: red;
+    cursor: pointer;
+    height: 30px;
+}
+
+bod
+
+.windowBox {
+    margin: center;
+    background-color: rgba(150, 18, 18, 0.5);
+    width: 500px;
+    height: 500px;
+    border: 2px solid;
+}
+
+
